@@ -35,6 +35,8 @@ return(p)
 }
 
 cl <- makeCluster(4)
+clusterEvalQ(cl, library(mgcv))
+clusterExport(cl, c("X", "Y", "ToY"))
 P <- pbsapply(SPP, fun, cl=cl)
 stopCluster(cl)
 

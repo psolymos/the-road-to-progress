@@ -10,5 +10,5 @@ The evolution shows the typical workflow.
 What you'll need:
 
 ``` R
-install.packages("pbapply")
+install.packages(c("pbapply", "mgcv"))
 ```
