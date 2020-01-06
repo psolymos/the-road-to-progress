@@ -34,6 +34,8 @@ p <- predict(m, newdata=data.frame(ToY=ToY), type="response")
 return(p)
 }
 
-P <- pbsapply(SPP, fun, cl=4)
+cl <- makeCluster(4)
+P <- pbsapply(SPP, fun, cl=cl)
+stopCluster(cl)
 
 matplot(ToY, P, type="l", ylim=c(0,1), lty=1, col="#00000044")
