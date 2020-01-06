@@ -1,3 +1,4 @@
+library(pbapply)
 load("example.RData")
 
 # All the species, exclude rare ones for now
@@ -32,6 +33,6 @@ p <- predict(m, newdata=data.frame(ToY=ToY), type="response")
 return(p)
 }
 
-P <- sapply(SPP, fun)
+P <- pbsapply(SPP, fun)
 
 matplot(ToY, P, type="l", ylim=c(0,1), lty=1, col="#00000044")
