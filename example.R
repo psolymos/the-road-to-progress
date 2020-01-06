@@ -32,10 +32,7 @@ p <- predict(m, newdata=data.frame(ToY=ToY), type="response")
 return(p)
 }
 
-for (spp in SPP) {
-cat(spp, which(SPP == spp), "/", length(SPP), "\n")
-flush.console()
-P[,spp] <- fun(spp)
-}
+Plist <- lapply(SPP, fun)
+P <- do.call(cbind, Plist)
 
 matplot(ToY, P, type="l", ylim=c(0,1), lty=1, col="#00000044")
