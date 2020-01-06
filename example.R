@@ -32,7 +32,6 @@ p <- predict(m, newdata=data.frame(ToY=ToY), type="response")
 return(p)
 }
 
-Plist <- lapply(SPP, fun)
-P <- do.call(cbind, Plist)
+P <- sapply(SPP, fun)
 
 matplot(ToY, P, type="l", ylim=c(0,1), lty=1, col="#00000044")
