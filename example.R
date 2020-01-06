@@ -11,10 +11,7 @@ colnames(P) <- SPP
 
 # Pick a species
 #spp <- "Ovenbird"
-for (spp in SPP) {
-
-cat(spp, which(SPP == spp), "/", length(SPP), "\n")
-flush.console()
+fun <- function(spp) {
 
 # Copy the data
 x1 <- X
@@ -32,9 +29,13 @@ m <- mgcv::gam(y ~ s(ToY), x1[x1$ToDc == "Morning" & x1$occ,], family=binomial)
 
 # Predict prob given time of year
 p <- predict(m, newdata=data.frame(ToY=ToY), type="response")
-#plot(p ~ ToY, type="l")
-P[,spp] <- p # store prediction
+return(p)
+}
 
+for (spp in SPP) {
+cat(spp, which(SPP == spp), "/", length(SPP), "\n")
+flush.console()
+P[,spp] <- fun(spp)
 }
 
 matplot(ToY, P, type="l", ylim=c(0,1), lty=1, col="#00000044")
