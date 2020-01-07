@@ -31,3 +31,9 @@ install.packages(c("pbapply", "mgcv"))
 4. Develop modular code by splitting the function into 2 pieces: (1) data processing + model training, and (2) prediction.
 5. Use `lapply`/`sapply` to run the code in a vectorized fashion.
 6. Adatp the vectorized format to show the progress and do it in parallel.
+
+Additional topics if time allows:
+
+- Promises: the [future API](https://cran.r-project.org/web/packages/future/index.html)
+- [RNGs](https://cran.r-project.org/web/views/HighPerformanceComputing.html)
+
