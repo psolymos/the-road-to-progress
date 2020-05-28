@@ -1,6 +1,6 @@
 # The Road to Progress
 
-> Step-by-step guide for vectorizing/parallelizing your code
+> Step-by-step guide for vectorizing/parallelizing your R code
 
 You can best follow this tutorial the following way:
 checkout the individual commits and look at the diffs.
