@@ -51,3 +51,4 @@ Check out Step 4 (`git checkout 8321cdc`) while creating a new branch from it: `
 - [RNGs](https://cran.r-project.org/web/views/HighPerformanceComputing.html)
 - [foreach](https://cran.r-project.org/web/packages/foreach/vignettes/foreach.html): `%do%` and `%dopar%`
 - Cloud HPC (Slurm, EC2, GCE)
+- [purr](https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html)
