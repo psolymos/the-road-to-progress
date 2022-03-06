@@ -59,6 +59,8 @@ This link will open up a preinstalled Gitpod environment where you can run the s
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/psolymos/the-road-to-progress)
 
+![Gitpod](gitpod.png)
+
 ## Exercise
 
 Check out Step 4 (`git checkout 8321cdc`) while creating a new branch from it: `git checkout -b <new-branch-name> 8321cdc`, or dowload this release: https://github.com/psolymos/the-road-to-progress/releases/tag/middle, then
