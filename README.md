@@ -43,6 +43,8 @@ Check out revisions using git tags to follow the steps:
 
 The `example.R` code will change along the steps, introducing new tricks.
 
+![Tags](tags.png)
+
 #### Locally without Git
 
 Download the zip file for this release: <https://github.com/psolymos/the-road-to-progress/releases/tag/start>.
