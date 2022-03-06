@@ -24,16 +24,16 @@ These steps demonstrate the usual workflow of how to interactively develop code 
 
 1. Fork the GitHub repo (there is only the master branch) and clone your fork: `git clone https://github.com/<your-github-user-name>/the-road-to-progress.git`
 2. Checkout revisions with the following hashes (use `git log --pretty=oneline` on the command line, `HEAD~3` is not really useful here):
-  - Step 1: `git checkout 45d5a67`
-  - Step 2: `git checkout 59eacb9`
-  - Step 3: `git checkout da685ae`
-  - Step 4: `git checkout 8321cdc`
-  - Step 5: `git checkout 9fc2c61`
-  - Step 6: `git checkout c0e1973`
-  - Step 7: `git checkout 370432f`
-  - Step 8: `git checkout 8ea4cd9`
-  - Step 9a: `git checkout b6c7729`
-  - Step 9b: `git checkout db7c892`
+  - Step 1: `git checkout 45d5a67` or `git checkout step-1`
+  - Step 2: `git checkout 59eacb9` or `git checkout step-2`
+  - Step 3: `git checkout da685ae` or `git checkout step-3`
+  - Step 4: `git checkout 8321cdc` or `git checkout step-4`
+  - Step 5: `git checkout 9fc2c61` or `git checkout step-5`
+  - Step 6: `git checkout c0e1973` or `git checkout step-6`
+  - Step 7: `git checkout 370432f` or `git checkout step-7`
+  - Step 8: `git checkout 8ea4cd9` or `git checkout step-8`
+  - Step 9a: `git checkout b6c7729` or `git checkout step-9b`
+  - Step 9b: `git checkout db7c892` or `git checkout step-9b`
 
 #### Without Git
 
