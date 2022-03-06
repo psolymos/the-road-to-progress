@@ -2,6 +2,9 @@
 
 > Step-by-step guide for vectorizing/parallelizing your R code
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/psolymos/the-road-to-progress)
+
+
 You can best follow this tutorial the following way:
 checkout the individual commits and look at the diffs.
 This way you'll be able to observe how the code evolved.
