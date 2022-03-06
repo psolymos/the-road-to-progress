@@ -4,7 +4,6 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/psolymos/the-road-to-progress)
 
-
 You can best follow this tutorial the following way:
 checkout the individual commits and look at the diffs.
 This way you'll be able to observe how the code evolved.
@@ -48,9 +47,15 @@ The `example.R` code will change along the steps, introducing new tricks.
 
 Download the zip file for this release: <https://github.com/psolymos/the-road-to-progress/releases/tag/start>.
 
-Then follow along this commit history: <https://github.com/psolymos/the-road-to-progress/commits/master/example.R>
+Then follow along this commit history: <https://github.com/psolymos/the-road-to-progress/commits/master/example.R>.
+
+![Diffs](diffs.png)
 
 #### In your browser with Gitpod
+
+This link will open up a preinstalled Gitpod environment where you can run the scripts from each step by launching R and copy-pasting the contents from the `step-*.R` files.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/psolymos/the-road-to-progress)
 
 ## Exercise
 
