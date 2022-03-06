@@ -1,4 +1,2 @@
-FROM gitpod/workspace-full
-USER gitpod
-RUN brew install R
+FROM rocker/r-ver:4.1.2
 RUN R -e 'install.packages(c("pbapply", "mgcv"))'
