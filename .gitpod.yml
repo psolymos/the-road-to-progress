@@ -2,4 +2,4 @@ image:
   file: .gitpod.Dockerfile
 vscode:
   extensions:
-    - Ikuyadeu.r@2.3.8
+    - Ikuyadeu.r@2.4.0
