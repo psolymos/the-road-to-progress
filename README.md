@@ -74,4 +74,4 @@ Check out Step 4 (`git checkout 8321cdc`) while creating a new branch from it: `
 - Promises: the [future API](https://cran.r-project.org/web/packages/future/index.html)
 - [RNGs](https://cran.r-project.org/web/views/HighPerformanceComputing.html)
 - [foreach](https://cran.r-project.org/web/packages/foreach/vignettes/foreach.html): `%do%` and `%dopar%`
-- [purr](https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html)
+- [purr](https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html) & [map-reduce](https://burtmonroe.github.io/SoDA501/Materials/SplitApplyCombine_R/)
