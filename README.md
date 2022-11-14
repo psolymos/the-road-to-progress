@@ -10,7 +10,7 @@ This way you'll be able to observe how the code evolved.
 The evolution shows the typical workflow.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=uyhIiTTrTJY" target="_blank">
- <img src="http://img.youtube.com/vi/uyhIiTTrTJY/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="0" />
+ <img src="http://img.youtube.com/vi/uyhIiTTrTJY/mqdefault.jpg" alt="Watch the video" width="480" height="360" border="0" />
 </a>
 
 ## What you'll need
