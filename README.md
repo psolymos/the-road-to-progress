@@ -9,7 +9,9 @@ checkout the individual commits and look at the diffs.
 This way you'll be able to observe how the code evolved.
 The evolution shows the typical workflow.
 
-[![Watch the video](https://img.youtube.com/vi/23tzKPBxpO8/default.jpg)](https://youtu.be/23tzKPBxpO8)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=uyhIiTTrTJY" target="_blank">
+ <img src="http://img.youtube.com/vi/uyhIiTTrTJY/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="0" />
+</a>
 
 ## What you'll need
 
