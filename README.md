@@ -9,6 +9,8 @@ checkout the individual commits and look at the diffs.
 This way you'll be able to observe how the code evolved.
 The evolution shows the typical workflow.
 
+<iframe width="748" height="421" src="https://www.youtube.com/embed/23tzKPBxpO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What you'll need
 
 ``` R
