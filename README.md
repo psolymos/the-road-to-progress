@@ -13,6 +13,8 @@ The evolution shows the typical workflow.
  <img src="http://img.youtube.com/vi/uyhIiTTrTJY/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="0" />
 </a>
 
+[![Watch the video](https://img.youtube.com/vi/uyhIiTTrTJY/default.jpg)](https://youtu.be/uyhIiTTrTJY)
+
 ## What you'll need
 
 ``` R
